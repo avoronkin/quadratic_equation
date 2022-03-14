@@ -1,0 +1,12 @@
+[package]
+name = "quadratic_equation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1.0.30"
+
+[lib]
+name = "quadratic_equation"
+path = "src/quadratic_equation.rs"
+crate-type = ["lib"]
